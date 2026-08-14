@@ -288,6 +288,7 @@ This list collects community plugins that are installable via `dsh plugin add` (
 - [slywalker2006/dsh-passwords](https://github.com/slywalker2006/dsh-passwords) - Login gateway for the DSH web UI: password door with first-run setup, bcrypt + at-rest encryption (AES-256-GCM/HMAC), brute-force lockout, audit log, TLS 1.2+ with 80→443 redirect, CSRF, anti-framing.
 - [Yuuz12/dsh-webui-auth](https://github.com/Yuuz12/dsh-webui-auth) - WebUI authentication enforced at the HTTP/transport layer: four-layer login gate (resources, plugin bundles, /api, WebSocket), server-side sessions with HttpOnly cookies.
 - [Leon0555/dsh-lan-access](https://github.com/Leon0555/dsh-lan-access) - LAN access for the Web GUI: 0.0.0.0 bind plus a crypto.randomUUID polyfill for non-secure (LAN HTTP) contexts.
+- [wikkd/dsh-remote-access-web](https://github.com/wikkd/dsh-remote-access-web) - Remote access for the DSH browser surface: a profile bundle that mounts a reverse-tunnel host plugin over `dsh-web-app` and pins the directory picker to the in-app browse dialog so a remote operator can add workspaces.
 
 
 ### Just for Fun
